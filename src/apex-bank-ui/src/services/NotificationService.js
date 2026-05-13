@@ -1,4 +1,6 @@
 import * as signalR from "@microsoft/signalr";
+import API_BASE_URL from '../apiConfig';
+
 
 class NotificationService {
   constructor() {
@@ -10,7 +12,7 @@ class NotificationService {
     if (this.connection) return;
 
     this.connection = new signalR.HubConnectionBuilder()
-      .withUrl("http://localhost:5000/hubs/notifications")
+      .withUrl(`${API_BASE_URL}/hubs/notifications`)
       .withAutomaticReconnect()
       .build();
 
