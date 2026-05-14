@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, ArrowUpRight, ArrowDownLeft, Wallet, CreditCard } from 'lucide-react';
+import { ArrowUpRight, ArrowDownLeft, Wallet, CreditCard } from 'lucide-react';
 
 const Overview = () => {
   const stats = [

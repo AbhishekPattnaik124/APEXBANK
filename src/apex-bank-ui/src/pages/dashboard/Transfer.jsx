@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Send, User, Search, Info } from 'lucide-react';
+import { useState } from 'react';
+import { Send, Search, Info } from 'lucide-react';
 
 const Transfer = () => {
   const [amount, setAmount] = useState('');

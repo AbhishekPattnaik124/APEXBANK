@@ -1,4 +1,3 @@
-import React from 'react';
 import { Check, X, FileText, User } from 'lucide-react';
 
 const Approvals = () => {

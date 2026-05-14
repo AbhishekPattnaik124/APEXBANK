@@ -1,4 +1,3 @@
-import React from 'react';
 import ApexNavbar from '../components/ApexNavbar';
 
 

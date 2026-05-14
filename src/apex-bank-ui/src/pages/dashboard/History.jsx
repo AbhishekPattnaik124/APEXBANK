@@ -1,4 +1,3 @@
-import React from 'react';
 import { Search, Filter, Download, ArrowUpRight, ArrowDownLeft } from 'lucide-react';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';

@@ -1,5 +1,4 @@
-import React from 'react';
-import { BarChart3, Users, AlertTriangle, Activity, ShieldAlert } from 'lucide-react';
+import { Users, AlertTriangle, Activity, ShieldAlert } from 'lucide-react';
 
 const AdminAnalytics = () => {
   const systemStats = [
